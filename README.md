@@ -97,3 +97,7 @@ Future Improvements
 Add SSL/TLS for secure communication using HTTPS.
 
 Implement a fully automated CI/CD pipeline for application deployment.
+
+Reference:
+
+This demo is based on the AWS documentation: Creating a VPC with Private Subnets and a NAT Gateway. For more detailed information and best practices, please refer to the official guide.
