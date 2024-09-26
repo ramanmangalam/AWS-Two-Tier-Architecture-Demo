@@ -73,7 +73,7 @@ Attached the Target Group to the ALB.
 
 Fixed a port mismatch error by updating the security group to allow port 80.
 
-6. Testing the Setup
+### 6. Testing the Setup
    
 Once the ALB was successfully configured, copied the DNS name of the ALB and accessed the application in the browser:
  **URL**: http://<ALB-DNS>
@@ -81,13 +81,13 @@ Once the ALB was successfully configured, copied the DNS name of the ALB and acc
 Result: The index.html page served by the instances in the private subnet was successfully displayed.
 
 Key Components
-VPC: Isolated environment for hosting application resources.
+ **VPC**: Isolated environment for hosting application resources.
 
-Auto Scaling Group: Automatically scales EC2 instances based on demand.
+ **Auto Scaling Group**: Automatically scales EC2 instances based on demand.
 
-Bastion Host: Securely access private instances.
+ **Bastion Host**: Securely access private instances.
 
-Application Load Balancer: Distributes incoming traffic across EC2 instances running in the private subnet.
+ **Application Load Balancer**: Distributes incoming traffic across EC2 instances running in the private subnet.
 
 Conclusion
 This two-tier architecture in AWS leverages the power of Auto Scaling and Load Balancing to provide a scalable and highly available environment for web applications. By isolating the application instances in private subnets and using a Bastion Host for secure access, the architecture ensures both security and scalability.
